@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="3.844" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Compare files between source and target zip archives" name="Extract and compare all files from zip archives" time="2.884">
+<system-out><![CDATA[
+Given I have a source zip file "preshot.zip"................................passed
+And I have a target zip file "postshot.zip".................................passed
+When I extract both zip files...............................................passed
+Then I should see the same number of files in both archives.................passed
+And I should be able to compare all corresponding files.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Compare files between source and target zip archives" name="Compare different file types - Example #1.1" time="0.133">
+<system-out><![CDATA[
+Given I have a source zip file "preshot.zip"................................passed
+And I have a target zip file "postshot.zip".................................passed
+When I compare "XML" files between source and target........................passed
+Then I should get a comparison report for "XML" files.......................passed
+And the report should highlight differences if any..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Compare files between source and target zip archives" name="Compare different file types - Example #1.2" time="0.129">
+<system-out><![CDATA[
+Given I have a source zip file "preshot.zip"................................passed
+And I have a target zip file "postshot.zip".................................passed
+When I compare "TXT" files between source and target........................passed
+Then I should get a comparison report for "TXT" files.......................passed
+And the report should highlight differences if any..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Compare files between source and target zip archives" name="Compare different file types - Example #1.3" time="0.118">
+<system-out><![CDATA[
+Given I have a source zip file "preshot.zip"................................passed
+And I have a target zip file "postshot.zip".................................passed
+When I compare "CSV" files between source and target........................passed
+Then I should get a comparison report for "CSV" files.......................passed
+And the report should highlight differences if any..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Compare files between source and target zip archives" name="Compare different file types - Example #1.4" time="0.144">
+<system-out><![CDATA[
+Given I have a source zip file "preshot.zip"................................passed
+And I have a target zip file "postshot.zip".................................passed
+When I compare "XLSX" files between source and target.......................passed
+Then I should get a comparison report for "XLSX" files......................passed
+And the report should highlight differences if any..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Compare files between source and target zip archives" name="Generate comprehensive comparison report" time="0.147">
+<system-out><![CDATA[
+Given I have a source zip file "preshot.zip"................................passed
+And I have a target zip file "postshot.zip".................................passed
+When I perform complete comparison of all files.............................passed
+Then I should get a summary report with:....................................passed
+And detailed reports for each file comparison...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

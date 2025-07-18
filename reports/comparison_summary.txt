@@ -1,0 +1,29 @@
+File Comparison Summary
+======================
+
+Total files compared: 4
+Identical files: 0
+Files with differences: 4
+
+Detailed Results:
+-----------------
+
+File: data.csv
+Type: CSV
+Status: DIFFERENT
+Differences: 1
+
+File: sample.xml
+Type: XML
+Status: DIFFERENT
+Differences: 1
+
+File: grades.xlsx
+Type: xlsx
+Status: DIFFERENT
+Differences: 1
+
+File: sample.txt
+Type: txt
+Status: DIFFERENT
+Differences: 1
